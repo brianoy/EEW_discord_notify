@@ -7,11 +7,13 @@
 
 
 ## 第一步 架設python環境(不示範)(請確保系統環境變數中有python路徑)
+<img src="https://user-images.githubusercontent.com/24865458/227401089-b6827cb8-1e5a-4169-aad4-2581d75f36d8.png" width="50%">
 
 ## 第二步 獲取discord伺服器內的頻道webhook網址(在想要的頻道中點擊右鍵編輯頻道)
 <img src="https://user-images.githubusercontent.com/24865458/208754730-8b555ce3-bc43-447b-9c04-3a4f9f26b0e7.png" width="50%">
 
-## 第三步 下載zip解壓縮在想要的路徑
+## 第三步 下載zip 解壓縮在想要的路徑
+<img src="https://user-images.githubusercontent.com/24865458/227401524-95423ca6-b000-4f2b-8c48-a92c07466edb.png" width="50%">
 
 ## 第四步 在地牛wake up!中選擇剛剛解壓縮的earthquick.bat路徑
 <img src="https://user-images.githubusercontent.com/24865458/208751019-a2ca4838-1839-4e55-9cf6-a49853e98d78.png" width="50%">
