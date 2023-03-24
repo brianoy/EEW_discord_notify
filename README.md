@@ -1,7 +1,7 @@
 # EEW_discord_notify
 地震速報、速報軟件、discord webhook推播、discord webhook推送（配合地牛Wake Up!）
 由於地牛wake up!只能觸發*cmd*和*bat*，如果想要推送到其他軟體就要call到python
-![image](https://user-images.githubusercontent.com/24865458/227399957-9f26707d-5817-4466-9184-fae6b19685a3.png)
+![image](https://user-images.githubusercontent.com/24865458/227400276-f5e9f40e-3ebf-4a7e-bc0a-77aba39ba5c3.png)
 
 # 使用說明
 
