@@ -13,15 +13,18 @@
 <img src="https://user-images.githubusercontent.com/24865458/208754730-8b555ce3-bc43-447b-9c04-3a4f9f26b0e7.png" width="50%">
 
 ## 第三步 下載zip 解壓縮在想要的路徑
+(提示:路徑不可以有中文)
 <img src="https://user-images.githubusercontent.com/24865458/227401524-95423ca6-b000-4f2b-8c48-a92c07466edb.png" width="50%">
 
-## 第四步 在地牛wake up!中選擇剛剛解壓縮的earthquick.bat路徑
+## 第四步 在地牛wake up!中選擇剛剛解壓縮的earthquick.bat的路徑
+(提示:路徑不可以有中文)
 <img src="https://user-images.githubusercontent.com/24865458/208751019-a2ca4838-1839-4e55-9cf6-a49853e98d78.png" width="50%">
 
-## 第五步 調整earthquick.bat中設定notify.py檔案的位置
+## 第五步 設定earthquick.bat中notify.py檔案的位置
+(提示:路徑不可以有中文)
 <img src="https://user-images.githubusercontent.com/24865458/208752205-64f9032a-04c8-4af9-bfb2-abef3875c4b1.png" width="50%">
 
-## 第六步 調整discord_notify.py的webhook的網址
+## 第六步 設定discord_notify.py中webhook的網址
 
 ```https://discord.com/api/webhooks/1000000000000000000/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX```
 
