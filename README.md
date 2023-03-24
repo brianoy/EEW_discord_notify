@@ -13,7 +13,7 @@
 
 ## 第三步 下載zip解壓縮在想要的路徑
 
-## 第四步 在地牛wake up!中選擇剛剛下載的earthquick.bat路徑
+## 第四步 在地牛wake up!中選擇剛剛解壓縮的earthquick.bat路徑
 <img src="https://user-images.githubusercontent.com/24865458/208751019-a2ca4838-1839-4e55-9cf6-a49853e98d78.png" width="50%">
 
 ## 第五步 調整earthquick.bat中設定notify.py檔案的位置
@@ -26,3 +26,10 @@
 <img src="https://user-images.githubusercontent.com/24865458/208753148-5973652d-1088-44f3-8878-334774366a3e.png" width="50%">
 
 
+## 第七步 在地牛wake up!中點擊測試
+
+<img src="https://user-images.githubusercontent.com/24865458/227400584-86fa5f4c-5f41-40d8-b1d0-a2ac437390a6.png" width="50%">
+
+## 第八步 看看訊息有沒有跳出來
+
+![image](https://user-images.githubusercontent.com/24865458/227400802-92ab6e7c-0834-46e6-b8be-6e906572b1ad.png)
