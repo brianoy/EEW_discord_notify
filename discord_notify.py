@@ -3,7 +3,7 @@ import sys
 dcUrl = "<discord webhook url>"
 
 magnitude = str(sys.argv[1]).replace("+","強").replace("-","弱")
-second = int(sys.argv[2])
+second = str(sys.argv[2])
 
 def dcWebhook(payload)->None:
     data = {"content": str(payload)}
