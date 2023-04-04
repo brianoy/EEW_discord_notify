@@ -22,7 +22,7 @@
 
 ```https://discord.com/api/webhooks/1000000000000000000/abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789000000```
 
-<img src="https://user-images.githubusercontent.com/24865458/208753148-5973652d-1088-44f3-8878-334774366a3e.png" width="50%">
+<img src="https://user-images.githubusercontent.com/24865458/229769026-d9ce32cb-767e-4b64-9e42-3e5c1d9625f0.png" width="50%">
 
 
 ## 第五步 在地牛wake up!中點擊測試
