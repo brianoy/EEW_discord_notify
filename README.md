@@ -38,3 +38,6 @@
 
 遵守https://www.flaticon.com
 的License summary:For commercial and personal projects
+
+# 打包
+由auto-py-to-exe打包
