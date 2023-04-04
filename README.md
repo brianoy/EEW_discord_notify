@@ -37,7 +37,10 @@
 <img src="https://user-images.githubusercontent.com/24865458/229744187-4a5c7285-7e3e-4415-a875-188fb1af8ffc.png" width="3%"><a href="https://www.flaticon.com/free-icons/earthquake" title="earthquake icons">Earthquake icons created by Freepik - Flaticon</a>
 
 遵守flaticon.com
-的License summary:For commercial and personal projects
+的License summary: For commercial and personal projects
 
 # 打包
-由auto-py-to-exe打包
+由auto-py-to-exe打包discord_notify.exe
+SHA256: 17c98a8ccd88f5ddbe83e72f3642bc2f23cfecb190fb4c76b7b0c3bbf5181ac7
+CRC64: 1E13AAFE12725A7A
+MD5: 807eb52396053cb556c40c56e690d8db
