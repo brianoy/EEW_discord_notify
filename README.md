@@ -34,7 +34,7 @@
 
 
 # icon使用
-<img src="https://user-images.githubusercontent.com/24865458/229744187-4a5c7285-7e3e-4415-a875-188fb1af8ffc.png" width="5%"><a href="https://www.flaticon.com/free-icons/earthquake" title="earthquake icons">Earthquake icons created by Freepik - Flaticon</a>
+<img src="https://user-images.githubusercontent.com/24865458/229744187-4a5c7285-7e3e-4415-a875-188fb1af8ffc.png" width="3%"><a href="https://www.flaticon.com/free-icons/earthquake" title="earthquake icons">Earthquake icons created by Freepik - Flaticon</a>
 
 遵守https://www.flaticon.com
 的License summary:For commercial and personal projects
