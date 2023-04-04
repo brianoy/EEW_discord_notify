@@ -6,31 +6,51 @@
 # 使用說明
 
 
-## 第一步 獲取discord伺服器內的頻道webhook網址(在想要的頻道中點擊右鍵編輯頻道)
+### 第一步 獲取discord伺服器內的頻道webhook網址
+    
+    在想要的文字頻道中點擊右鍵編輯頻道，或是點擊齒輪icon
+    整合->webhook->新增webhook
+    
 <img src="https://user-images.githubusercontent.com/24865458/208754730-8b555ce3-bc43-447b-9c04-3a4f9f26b0e7.png" width="50%">
 
-## 第二步 下載zip 解壓縮在想要的路徑
+### 第二步 下載zip 解壓縮在想要的路徑
+- 路徑不可以有中文
+<a href="https://github.com/brianoy/EEW_discord_notify/raw/packed/discord_notify.exe">下載*exe</a>
 
 <img src="https://user-images.githubusercontent.com/24865458/227401524-95423ca6-b000-4f2b-8c48-a92c07466edb.png" width="50%">
-(提示:路徑不可以有中文)
 
-## 第三步 在地牛wake up!中選擇剛剛解壓縮的discord_notify.exe的路徑
+
+
+
+### 第三步 在地牛wake up!中選擇剛剛解壓縮的discord_notify.exe的路徑
+- 路徑不可以有中文
+
 <img src="https://user-images.githubusercontent.com/24865458/208751019-a2ca4838-1839-4e55-9cf6-a49853e98d78.png" width="50%">
-(提示:路徑不可以有中文)
-
-## 第四步 設定discord_notify.ini中webhook的網址及其他細項
-
-把
-```https://discord.com/api/webhooks/1000000000000000000/abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789000000```
-變成自己的webhook網址
-
-<img src="https://user-images.githubusercontent.com/24865458/229769026-d9ce32cb-767e-4b64-9e42-3e5c1d9625f0.png" width="50%">
 
 
-## 第五步 在地牛wake up!中點擊測試
+### 第四步 設定discord_notify.ini中webhook的網址及其他細項
+
+1) 點擊discord_notify.ini，用自己習慣的編輯器打開
+```ini
+[DEFAULT]
+1.網址說明 = 請複製discord webhook網址進去，無須加雙引號
+webhookurl = https://discord.com/api/webhooks/1000000000000000000/abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789000000
+2.延遲說明 = 請輸入在程式結束後視窗保留的時間，預設為5秒鐘，無須加雙引號
+sleep_time = 5
+3.地區說明 = 請輸入在地震訊息發出後，需要被顯示的地區，預設不顯示，為NULL，無須加雙引號
+area = NULL
+```
+2) 把```https://discord.com/api/webhooks/1000000000000000000/abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789000000```變成自己的webhook網址
+3) 延遲指的是啟動discord_notify.exe後，該視窗存在的時間，若看的到print出來的訊息就可以看到會有倒數的秒數
+4) 地區是指原訊息是```警告：地區預計震度5強級地震  預計到達時間:20秒``` 
+  
+  若設成```area = 台北```即變成```警告：台北地區預計震度5強級  地震預計到達時間:20秒```
+
+
+### 第五步 在地牛wake up!中點擊測試
 <img src="https://user-images.githubusercontent.com/24865458/227400584-86fa5f4c-5f41-40d8-b1d0-a2ac437390a6.png" width="50%">
 
-## 第六步 看看訊息有沒有跳出來
+### 第六步 看看訊息有沒有跳出來
 ![image](https://user-images.githubusercontent.com/24865458/227400802-92ab6e7c-0834-46e6-b8be-6e906572b1ad.png)
 
 
@@ -42,10 +62,20 @@
 的License summary: For commercial and personal projects
 
 # 打包
-由auto-py-to-exe打包discord_notify.exe
+由<a href="https://pypi.org/project/auto-py-to-exe/">auto-py-to-exe</a> 打包 discord_notify.exe
 
 SHA256: 17c98a8ccd88f5ddbe83e72f3642bc2f23cfecb190fb4c76b7b0c3bbf5181ac7
 
 CRC64: 1E13AAFE12725A7A
 
 MD5: 807eb52396053cb556c40c56e690d8db
+
+# 常見QA
+1) 看不到ini檔怎麼辦
+
+> 把discord_notify.exe執行一次後，如果當前目錄沒有ini檔即會再次生成ini檔，可以在裡面調整webhook網址、顯示地區、視窗關閉秒數
+
+2) 為什麼按下測試後只會跳出CMD的介面，不會顯示東西
+
+> 不清楚地牛wakeup!中測試按鈕的設定是什麼，它會讓執行的東西都看不到print，如果有debug的需求可以透過外部執行discord_notify.exe
+    
