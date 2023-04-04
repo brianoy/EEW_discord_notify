@@ -34,7 +34,7 @@
 
 
 ### 第四步 設定discord_notify.ini中webhook的網址及其他細項
-
+- 需和exe在同一目錄
 1) 點擊discord_notify.ini，用自己習慣的編輯器打開
 ```ini
 [DEFAULT]
@@ -45,7 +45,7 @@ sleep_time = 5
 3.地區說明 = 請輸入在地震訊息發出後，需要被顯示的地區，預設不顯示，為NULL，無須加雙引號
 area = NULL
 ```
-2) 把```https://discord.com/api/webhooks/1000000000000000000/abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789000000```變成自己的webhook網址
+2) ```https://discord.com/api/webhooks/1000000000000000000/abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789000000```變成自己的webhook網址
 3) 延遲指的是啟動discord_notify.exe後，該視窗存在的時間，若看的到print出來的訊息就可以看到會有倒數的秒數
 4) 地區是指原訊息是```警告：地區預計震度5強級地震  預計到達時間:20秒``` 
   
