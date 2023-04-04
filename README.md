@@ -1,6 +1,6 @@
 # EEW_discord_notify
 地震速報、速報軟件、discord webhook推播、discord webhook推送（配合地牛Wake Up!）
-由於地牛wake up!只能觸發*cmd*和*bat*，如果想要推送到其他軟體就要call到python
+使用python編寫，打包為exe後可直接被觸發
 <img src="https://user-images.githubusercontent.com/24865458/229742327-73942303-fb54-461a-9caf-c48a8aa5bd4e.png" width="100%">
 
 # 使用說明
@@ -20,7 +20,9 @@
 
 ## 第四步 設定discord_notify.ini中webhook的網址及其他細項
 
+把
 ```https://discord.com/api/webhooks/1000000000000000000/abcdefghijklmnopqrstuvwxyz_ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789000000```
+變成自己的webhook網址
 
 <img src="https://user-images.githubusercontent.com/24865458/229769026-d9ce32cb-767e-4b64-9e42-3e5c1d9625f0.png" width="50%">
 
@@ -41,6 +43,9 @@
 
 # 打包
 由auto-py-to-exe打包discord_notify.exe
+
 SHA256: 17c98a8ccd88f5ddbe83e72f3642bc2f23cfecb190fb4c76b7b0c3bbf5181ac7
+
 CRC64: 1E13AAFE12725A7A
+
 MD5: 807eb52396053cb556c40c56e690d8db
